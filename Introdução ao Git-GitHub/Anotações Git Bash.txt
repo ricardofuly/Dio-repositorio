@@ -1,0 +1,35 @@
+Comandos Git Hub
+
+- git init (inicializa o repositorio)
+- git remote add origin
+- git add ("." para adicionar todos os arquivos)
+- git status (verifica estatus dos arquivos)
+- git commit -m "Mensagem"
+- git push origin master
+
+* Open SSL Sha1
+
+Encripta usando hash sha1, transforma em um texto com 40 caracteres.
+
+*Objetos
+
+-Blobs (42 caracteres)
+. echo "conteudo" | git hash-object -  --stdim
+
+echo -e "conteudo" | openssl sha1
+echo -e "blob 9/0 conteudo" | openssh/sha1
+
+*Tree
+. bloob, sa4d85, arquivo.txt
+
+-Commit
+tree	| mensagem "start"	
+parente | timestamp
+autor	| nome
+
+-Autenticação SSH
+ssh - keygem -t ed25519 -c "email"
+evd $(ssh-agent -s)
+ssh-add "chave"
+
+-git clone (para clonar um git repositorio)
