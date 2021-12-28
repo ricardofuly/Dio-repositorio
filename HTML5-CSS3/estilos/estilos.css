@@ -1,0 +1,61 @@
+body{
+  background: #ccc;
+  font-family: verdana;
+  max-width: 900px;
+  margin: auto;
+}
+
+.perfil{
+  border-radius: 300px;
+  border: 1px #505050;
+}
+
+#titulo, subtitulo, post{
+  color: #505050;
+}
+
+#titulo{
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+a{
+  text-decoration: line-through;
+  color: #505050;
+}
+
+.post{
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.postagem{
+  background: #ffff;
+  padding: 10px;
+  border: 3px solid #505050;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.conteudo{
+  margin: 0;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  text-align: justify;
+}
+
+.img1{
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.lista{
+  list-style-type: none;
+  padding-left: 15px;
+}
+
+.lista li a{
+  text-decoration: none;
+}
